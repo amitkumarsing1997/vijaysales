@@ -1,0 +1,22 @@
+{
+  "name": "vijaysales",
+  "version": "1.0.0",
+  "description": "This repository contains containarized node js express for online shopping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitkumarsing1997/vijaysales.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitkumarsing1997/vijaysales/issues"
+  },
+  "homepage": "https://github.com/amitkumarsing1997/vijaysales#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
