@@ -52,6 +52,6 @@ app.get("/login",(req,res)=>{
     )
 });
 
-var server = app.listen("9000");
-console.log("vijay sales runs on port 9000");
+var server = app.listen("8000");
+console.log("vijay sales runs on port 8000");
 
