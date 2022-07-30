@@ -33,10 +33,25 @@ app.get("/aboutus",(req,res)=>{
         +"<li>subject Matter Experts : Rohit Gore</li>"
         +"</ol"
     )
-
-    
-
 });
+
+
+app.get("/login",(req,res)=>{
+
+    res.send(
+        "<h1>Vijay Sales</h1>"
+        +"<h3>Login</h3>"
+        +"</hr>"
+        +"<form>"
+        +"<input/>"
+        +"<br/>"
+        +"<input/>"
+        +"<button>login</button>"
+    
+        +"</form>"
+    )
+});
+
 var server = app.listen("9000");
 console.log("vijay sales runs on port 9000");
 
